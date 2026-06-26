@@ -6,8 +6,8 @@ USE DB_AGENDA_TELEFONE;
 
 --CRIANDO A TABELA CONTATOS
 CREATE TABLE TB_CONTATOS_AGENDA (
-		nome_contato varchar(200) not null,
-		telefone varchar(30) not null,
+	nome_contato varchar(200) not null,
+	telefone varchar(30) not null,
 );
 
 --CONSULTA A TABELA CRIADA
