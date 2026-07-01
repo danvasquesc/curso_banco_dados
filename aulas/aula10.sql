@@ -25,6 +25,9 @@ select * from TabelaB;
 
 -- INNER JOIN --
 -- retorna os registros/linhas que são comuns às duas tabelas
-select * from TabelaA as A
+select A.nome as NomeA,
+	   B.nome as NomeB
+from TabelaA as A
 inner join TabelaB as B
 on A.nome = B.nome;
+
